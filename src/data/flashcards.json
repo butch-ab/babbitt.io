@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "What is React?",
+    "answer": "A JavaScript library for building user interfaces"
+  },
+  {
+    "id": 2,
+    "question": "What is a component in React?",
+    "answer": "A reusable piece of UI that can have its own logic and appearance"
+  },
+  {
+    "id": 3,
+    "question": "What is JSX?",
+    "answer": "A syntax extension for JavaScript that looks similar to HTML"
+  },
+  {
+    "id": 4,
+    "question": "What is the useState hook?",
+    "answer": "A React hook that allows you to add state to functional components"
+  },
+  {
+    "id": 5,
+    "question": "What is Vite?",
+    "answer": "A fast build tool and development server for modern web applications"
+  },
+  {
+    "id": 6,
+    "question": "What is the virtual DOM?",
+    "answer": "A lightweight copy of the actual DOM that React uses to optimize updates"
+  },
+  {
+    "id": 7,
+    "question": "What are props in React?",
+    "answer": "Properties passed from a parent component to a child component"
+  },
+  {
+    "id": 8,
+    "question": "What is the useEffect hook?",
+    "answer": "A React hook for performing side effects in functional components"
+  }
+]

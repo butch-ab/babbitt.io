@@ -1,21 +1,34 @@
 # Flashcards App
 
-A simple flashcard application built with React and Vite, optimized for Cloudflare Pages deployment.
+A simple React + Vite flashcards application with a static JSON database.
 
 ## Features
 
-- 📚 Interactive flashcard interface
-- 🔄 Flip animations
-- 📊 Progress tracking
-- 📱 Responsive design
-- ⚡ Fast and lightweight
+- Browse through flashcards with Next/Previous buttons
+- Click to flip cards and reveal answers
+- Simple, clean interface
+- Static JSON database for easy customization
 
-## Local Development
+## Getting Started
 
+### Prerequisites
+
+- Node.js (v16 or higher)
+- npm or yarn
+
+### Installation
+
+1. Install dependencies:
 ```bash
 npm install
+```
+
+2. Run the development server:
+```bash
 npm run dev
 ```
+
+3. Open your browser to the URL shown in the terminal (usually http://localhost:5173)
 
 ## Building for Production
 
@@ -23,54 +36,76 @@ npm run dev
 npm run build
 ```
 
-The built files will be in the `dist/` directory.
+This will create a `dist` folder with the production-ready files.
 
 ## Deploying to Cloudflare Pages
 
-This project is configured to deploy automatically to Cloudflare Pages.
+### Option 1: Via Git Integration (Recommended)
 
-### Build Configuration
+1. Push your code to a Git repository (GitHub, GitLab, etc.)
+2. Go to [Cloudflare Pages Dashboard](https://dash.cloudflare.com/)
+3. Click "Create a project"
+4. Connect your Git repository
+5. Configure build settings:
+   - **Build command**: `npm run build`
+   - **Build output directory**: `dist`
+   - **Root directory**: `/` (or leave empty)
+6. Click "Save and Deploy"
 
-- **Framework preset**: None (or React)
-- **Build command**: `npm ci && npm run build`
-- **Build output directory**: `dist`
-- **Root directory**: `/`
-- **Environment variables**: None required
+### Option 2: Direct Upload
 
-### Node Version
+1. Build the project:
+```bash
+npm run build
+```
 
-The project uses Node.js 24.11.0 (defined in `.nvmrc`). Cloudflare Pages will automatically detect and use this version.
+2. Install Wrangler CLI (if not already installed):
+```bash
+npm install -g wrangler
+```
+
+3. Login to Cloudflare:
+```bash
+wrangler login
+```
+
+4. Deploy to Pages:
+```bash
+wrangler pages deploy dist
+```
+
+## Customizing Flashcards
+
+Edit the `src/data/flashcards.json` file to add, remove, or modify flashcards. Each flashcard should have:
+- `id`: Unique identifier
+- `question`: The question text
+- `answer`: The answer text
+
+Example:
+```json
+{
+  "id": 9,
+  "question": "Your question here?",
+  "answer": "Your answer here"
+}
+```
 
 ## Project Structure
 
 ```
 flashcards/
-├── dist/              # Build output (generated)
-├── public/            # Static assets
-│   ├── _redirects     # Cloudflare Pages SPA routing
-│   └── flashcards.json # Flashcard data
-├── src/               # Source code
-│   ├── App.jsx        # Main App component
-│   ├── App.css        # Styles
-│   └── main.jsx       # Entry point
-├── .nvmrc            # Node version specification
-├── package.json       # Dependencies and scripts
-└── vite.config.js     # Vite configuration
-```
-
-## Customizing Flashcards
-
-Edit `public/flashcards.json` to add, modify, or remove flashcards:
-
-```json
-[
-  {
-    "front": "Question text here",
-    "back": "Answer text here"
-  }
-]
+├── src/
+│   ├── data/
+│   │   └── flashcards.json    # Flashcard database
+│   ├── App.jsx                # Main app component
+│   ├── App.css                # App styles
+│   ├── main.jsx               # Entry point
+│   └── index.css              # Global styles
+├── index.html                 # HTML template
+├── vite.config.js             # Vite configuration
+└── package.json               # Dependencies
 ```
 
 ## License
 
-Private project
+MIT
