@@ -1,127 +1,202 @@
 [
   {
     "id": 1,
-    "question": "What is Agile?",
-    "answer": "An iterative approach to project management and software development that focuses on collaboration, customer feedback, and rapid releases"
+    "question": "What does a project manager do?",
+    "answer": "Plans, coordinates, and delivers projects on time, scope, and budget."
   },
   {
     "id": 2,
-    "question": "What are the four values of the Agile Manifesto?",
-    "answer": "Individuals and interactions over processes and tools; Working software over comprehensive documentation; Customer collaboration over contract negotiation; Responding to change over following a plan"
+    "question": "What is a project?",
+    "answer": "A temporary effort to create a unique product, service, or result."
   },
   {
     "id": 3,
-    "question": "What is Scrum?",
-    "answer": "An Agile framework for managing complex projects, organized around fixed-length iterations called Sprints"
+    "question": "What is a stakeholder?",
+    "answer": "Anyone who can impact or is impacted by the project."
   },
   {
     "id": 4,
-    "question": "What are the three Scrum roles?",
-    "answer": "Product Owner (maximizes product value), Scrum Master (facilitates process and removes impediments), Development Team (delivers increments)"
+    "question": "What is scope?",
+    "answer": "The work required to deliver the agreed outcomes."
   },
   {
     "id": 5,
-    "question": "What is a Sprint?",
-    "answer": "A time-boxed iteration (typically 1-4 weeks) during which a potentially releasable product increment is created"
+    "question": "What is scope creep?",
+    "answer": "Uncontrolled scope changes without time/budget adjustments."
   },
   {
     "id": 6,
-    "question": "What are the five Scrum ceremonies/events?",
-    "answer": "Sprint Planning, Daily Standup (Daily Scrum), Sprint Review, Sprint Retrospective, and Backlog Refinement"
+    "question": "What is a requirement?",
+    "answer": "A documented need that the project must satisfy."
   },
   {
     "id": 7,
-    "question": "What is the purpose of a Daily Standup?",
-    "answer": "A 15-minute time-boxed meeting where team members synchronize activities and plan for the next 24 hours by answering: What did I do yesterday? What will I do today? Are there any impediments?"
+    "question": "What is a risk?",
+    "answer": "A potential event that could impact the project."
   },
   {
     "id": 8,
-    "question": "What are the three Scrum artifacts?",
-    "answer": "Product Backlog (prioritized list of features), Sprint Backlog (items selected for the Sprint), and Product Increment (working product at end of Sprint)"
+    "question": "What is an issue?",
+    "answer": "A problem impacting the project right now."
   },
   {
     "id": 9,
-    "question": "What is the Product Owner responsible for?",
-    "answer": "Maximizing product value, managing the Product Backlog, prioritizing work, defining acceptance criteria, and being the voice of the customer"
+    "question": "How do you handle risks?",
+    "answer": "Identify, assess, plan responses, and track."
   },
   {
     "id": 10,
-    "question": "What is the Scrum Master responsible for?",
-    "answer": "Facilitating Scrum events, removing impediments, coaching the team on Agile practices, protecting the team from distractions, and ensuring Scrum is understood"
+    "question": "What is a RAID log?",
+    "answer": "Tracker for Risks, Assumptions, Issues, Dependencies."
   },
   {
     "id": 11,
-    "question": "What is a user story?",
-    "answer": "A brief description of a feature from the end-user perspective, typically formatted as: 'As a [user], I want [goal] so that [benefit]'"
+    "question": "What is a dependency?",
+    "answer": "Work that relies on another task or team."
   },
   {
     "id": 12,
-    "question": "What is velocity in Scrum?",
-    "answer": "A measure of the amount of work a team can complete during a Sprint, used for forecasting and planning future Sprints"
+    "question": "What is a milestone?",
+    "answer": "A significant event or checkpoint in the schedule."
   },
   {
     "id": 13,
-    "question": "What is a Definition of Done (DoD)?",
-    "answer": "A shared understanding of what it means for work to be complete, ensuring transparency and quality standards are met"
+    "question": "What is a critical path?",
+    "answer": "The longest path of tasks that determines finish date."
   },
   {
     "id": 14,
-    "question": "What happens in Sprint Planning?",
-    "answer": "The team collaborates to decide what can be delivered in the Sprint and how the work will be achieved, creating the Sprint Goal and Sprint Backlog"
+    "question": "What is a change request?",
+    "answer": "A formal ask to modify scope, schedule, or budget."
   },
   {
     "id": 15,
-    "question": "What is the purpose of a Sprint Review?",
-    "answer": "To inspect the Increment, demonstrate completed work to stakeholders, gather feedback, and adapt the Product Backlog based on that feedback"
+    "question": "What is a project charter?",
+    "answer": "Document that authorizes the project and sets goals."
   },
   {
     "id": 16,
-    "question": "What is the purpose of a Sprint Retrospective?",
-    "answer": "For the team to inspect how the Sprint went regarding people, relationships, process, and tools, and identify improvements for the next Sprint"
+    "question": "What is a kickoff meeting?",
+    "answer": "Meeting to align goals, roles, ways of working."
   },
   {
     "id": 17,
-    "question": "What is a burndown chart?",
-    "answer": "A visual representation of work remaining versus time, used to track progress during a Sprint and predict whether the Sprint Goal will be achieved"
+    "question": "What is a RACI?",
+    "answer": "Matrix of who is Responsible, Accountable, Consulted, Informed."
   },
   {
     "id": 18,
-    "question": "What is the difference between Agile and Waterfall?",
-    "answer": "Waterfall is sequential with phases completed before moving to the next; Agile is iterative with continuous feedback, adaptation, and incremental delivery"
+    "question": "What is a communication plan?",
+    "answer": "Who gets what info, when, and how."
   },
   {
     "id": 19,
-    "question": "What are story points?",
-    "answer": "A unit of measure for estimating the effort required to implement a user story, considering complexity, effort, and uncertainty"
+    "question": "What is a status report?",
+    "answer": "Summary of progress, risks, issues, and next steps."
   },
   {
     "id": 20,
-    "question": "What is technical debt?",
-    "answer": "The implied cost of future rework caused by choosing quick or easy solutions now instead of better approaches that would take longer"
+    "question": "What is a KPI?",
+    "answer": "A key performance metric for project health."
   },
   {
     "id": 21,
-    "question": "What is an Agile epic?",
-    "answer": "A large user story that cannot be completed in a single Sprint and needs to be broken down into smaller user stories"
+    "question": "What is Agile?",
+    "answer": "Iterative delivery with customer feedback and adaptation."
   },
   {
     "id": 22,
-    "question": "What is timeboxing?",
-    "answer": "A time management technique where a fixed time period is allocated to an activity, helping to limit work in progress and maintain focus"
+    "question": "What is Scrum?",
+    "answer": "Agile framework using sprints, roles, and ceremonies."
   },
   {
     "id": 23,
-    "question": "What is continuous integration in Agile?",
-    "answer": "A practice where developers frequently merge code changes into a shared repository, with automated builds and tests to detect problems early"
+    "question": "What is a sprint?",
+    "answer": "A time-boxed iteration (usually 1–2 weeks)."
   },
   {
     "id": 24,
-    "question": "What is the Product Backlog?",
-    "answer": "An ordered list of everything needed in the product, maintained by the Product Owner and continuously refined based on changing requirements and feedback"
+    "question": "What is a sprint goal?",
+    "answer": "The single objective the team aims to achieve this sprint."
   },
   {
     "id": 25,
-    "question": "How do you handle scope creep in Agile?",
-    "answer": "Through regular backlog refinement, strict Sprint commitments, clear Definition of Done, stakeholder engagement, and prioritization by the Product Owner"
+    "question": "What is a user story?",
+    "answer": "Small, user-focused requirement in simple language."
+  },
+  {
+    "id": 26,
+    "question": "What are acceptance criteria?",
+    "answer": "Conditions to confirm a story is complete."
+  },
+  {
+    "id": 27,
+    "question": "What is Definition of Done?",
+    "answer": "Agreed quality checklist to call work complete."
+  },
+  {
+    "id": 28,
+    "question": "What happens in daily standup?",
+    "answer": "Team shares progress, plans, and blockers in ~15 mins."
+  },
+  {
+    "id": 29,
+    "question": "What is backlog refinement?",
+    "answer": "Clarifying, sizing, and prioritizing upcoming work."
+  },
+  {
+    "id": 30,
+    "question": "What is velocity?",
+    "answer": "Amount of work completed per sprint (for forecasting)."
+  },
+  {
+    "id": 31,
+    "question": "What is a burndown chart?",
+    "answer": "Graph of remaining work vs. time in a sprint."
+  },
+  {
+    "id": 32,
+    "question": "What is Kanban?",
+    "answer": "Flow-based work management with WIP limits."
+  },
+  {
+    "id": 33,
+    "question": "What is WIP?",
+    "answer": "Work in Progress—items currently being worked on."
+  },
+  {
+    "id": 34,
+    "question": "What is MVP?",
+    "answer": "Minimum product that delivers user value."
+  },
+  {
+    "id": 35,
+    "question": "What is a roadmap?",
+    "answer": "High-level timeline of major outcomes and releases."
+  },
+  {
+    "id": 36,
+    "question": "How do you prioritize work?",
+    "answer": "Use value, risk, effort; align with goals and stakeholders."
+  },
+  {
+    "id": 37,
+    "question": "How do you manage blockers?",
+    "answer": "Escalate early, assign owners, track to resolution."
+  },
+  {
+    "id": 38,
+    "question": "How do you run effective meetings?",
+    "answer": "Clear goal, agenda, roles, timebox, actions recorded."
+  },
+  {
+    "id": 39,
+    "question": "What is a retrospective?",
+    "answer": "Team review to improve process for next iteration."
+  },
+  {
+    "id": 40,
+    "question": "What is a go/no-go?",
+    "answer": "Decision meeting to proceed with launch or not."
   }
 ]
