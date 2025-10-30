@@ -1,202 +1,202 @@
 [
   {
     "id": 1,
-    "question": "What does a project manager do?",
-    "answer": "Plans, coordinates, and delivers projects on time, scope, and budget."
+    "question": "How do you structure an ambiguous problem?",
+    "answer": "Clarify goal, list constraints, break into subproblems, prioritize, plan."
   },
   {
     "id": 2,
-    "question": "What is a project?",
-    "answer": "A temporary effort to create a unique product, service, or result."
+    "question": "What’s your first step when you lack data?",
+    "answer": "Define assumptions, find proxies, run small tests, refine quickly."
   },
   {
     "id": 3,
-    "question": "What is a stakeholder?",
-    "answer": "Anyone who can impact or is impacted by the project."
+    "question": "How do you prioritize tasks with limited time?",
+    "answer": "Use impact vs. effort; ship high-impact, low-effort first."
   },
   {
     "id": 4,
-    "question": "What is scope?",
-    "answer": "The work required to deliver the agreed outcomes."
+    "question": "How do you estimate users for a new feature?",
+    "answer": "Top-down TAM×reach×conversion with sanity checks."
   },
   {
     "id": 5,
-    "question": "What is scope creep?",
-    "answer": "Uncontrolled scope changes without time/budget adjustments."
+    "question": "What metrics define success?",
+    "answer": "North Star, supporting metrics, guardrails for quality/risk."
   },
   {
     "id": 6,
-    "question": "What is a requirement?",
-    "answer": "A documented need that the project must satisfy."
+    "question": "How do you pick a North Star metric?",
+    "answer": "It tracks delivered user value, not vanity activity."
   },
   {
     "id": 7,
-    "question": "What is a risk?",
-    "answer": "A potential event that could impact the project."
+    "question": "Correlation vs. causation?",
+    "answer": "Correlation moves together; causation changes outcomes when changed."
   },
   {
     "id": 8,
-    "question": "What is an issue?",
-    "answer": "A problem impacting the project right now."
+    "question": "When to run an A/B test?",
+    "answer": "When you need causal evidence and have traffic for power."
   },
   {
     "id": 9,
-    "question": "How do you handle risks?",
-    "answer": "Identify, assess, plan responses, and track."
+    "question": "Common A/B testing pitfalls?",
+    "answer": "Peeking early, small samples, biased assignment, multiple tests."
   },
   {
     "id": 10,
-    "question": "What is a RAID log?",
-    "answer": "Tracker for Risks, Assumptions, Issues, Dependencies."
+    "question": "How to choose experiment success metrics?",
+    "answer": "Tie to goal, ensure sensitivity, add guardrails."
   },
   {
     "id": 11,
-    "question": "What is a dependency?",
-    "answer": "Work that relies on another task or team."
+    "question": "How do you size an engineering task quickly?",
+    "answer": "Compare to known work, identify unknowns, add buffer."
   },
   {
     "id": 12,
-    "question": "What is a milestone?",
-    "answer": "A significant event or checkpoint in the schedule."
+    "question": "How do you make a go/no-go decision?",
+    "answer": "Check readiness checklist, KPIs, risks, rollback plan."
   },
   {
     "id": 13,
-    "question": "What is a critical path?",
-    "answer": "The longest path of tasks that determines finish date."
+    "question": "How do you handle conflicting stakeholder asks?",
+    "answer": "Align on goals, quantify impact, propose trade-offs."
   },
   {
     "id": 14,
-    "question": "What is a change request?",
-    "answer": "A formal ask to modify scope, schedule, or budget."
+    "question": "What’s your approach to root cause analysis?",
+    "answer": "5 Whys, verify with data, fix cause not symptom."
   },
   {
     "id": 15,
-    "question": "What is a project charter?",
-    "answer": "Document that authorizes the project and sets goals."
+    "question": "How do you validate a hypothesis fast?",
+    "answer": "Run a scrappy test or prototype with real users."
   },
   {
     "id": 16,
-    "question": "What is a kickoff meeting?",
-    "answer": "Meeting to align goals, roles, ways of working."
+    "question": "How do you handle ambiguous requirements?",
+    "answer": "Clarify outcomes, write assumptions, propose options."
   },
   {
     "id": 17,
-    "question": "What is a RACI?",
-    "answer": "Matrix of who is Responsible, Accountable, Consulted, Informed."
+    "question": "How do you measure product adoption?",
+    "answer": "New actives, activation rate, retention, feature usage."
   },
   {
     "id": 18,
-    "question": "What is a communication plan?",
-    "answer": "Who gets what info, when, and how."
+    "question": "Leading vs. lagging metrics?",
+    "answer": "Leading predicts; lagging confirms outcomes."
   },
   {
     "id": 19,
-    "question": "What is a status report?",
-    "answer": "Summary of progress, risks, issues, and next steps."
+    "question": "How do you evaluate trade-offs?",
+    "answer": "Compare impact, cost, risk, and time across options."
   },
   {
     "id": 20,
-    "question": "What is a KPI?",
-    "answer": "A key performance metric for project health."
+    "question": "What is expected value?",
+    "answer": "Sum of outcomes × their probabilities; guides decisions."
   },
   {
     "id": 21,
-    "question": "What is Agile?",
-    "answer": "Iterative delivery with customer feedback and adaptation."
+    "question": "How do you sanity-check an estimate?",
+    "answer": "Use bounds, alternate methods, and back-of-envelope math."
   },
   {
     "id": 22,
-    "question": "What is Scrum?",
-    "answer": "Agile framework using sprints, roles, and ceremonies."
+    "question": "How do you define constraints?",
+    "answer": "Identify limits on time, budget, scope, and quality."
   },
   {
     "id": 23,
-    "question": "What is a sprint?",
-    "answer": "A time-boxed iteration (usually 1–2 weeks)."
+    "question": "How to choose between two features?",
+    "answer": "Compare user value, reach, confidence, and cost."
   },
   {
     "id": 24,
-    "question": "What is a sprint goal?",
-    "answer": "The single objective the team aims to achieve this sprint."
+    "question": "How do you handle a surprising data point?",
+    "answer": "Check data quality, segment, replicate, then conclude."
   },
   {
     "id": 25,
-    "question": "What is a user story?",
-    "answer": "Small, user-focused requirement in simple language."
+    "question": "How do you define a hypothesis?",
+    "answer": "A testable statement linking action to expected outcome."
   },
   {
     "id": 26,
-    "question": "What are acceptance criteria?",
-    "answer": "Conditions to confirm a story is complete."
+    "question": "How do you de-risk a launch?",
+    "answer": "Phased rollout, monitors, kill switch, comms plan."
   },
   {
     "id": 27,
-    "question": "What is Definition of Done?",
-    "answer": "Agreed quality checklist to call work complete."
+    "question": "When do you not A/B test?",
+    "answer": "Low traffic, ethical issues, massive effect, urgent fix."
   },
   {
     "id": 28,
-    "question": "What happens in daily standup?",
-    "answer": "Team shares progress, plans, and blockers in ~15 mins."
+    "question": "How do you segment users for insights?",
+    "answer": "By cohort, geo, device, plan, and behavior."
   },
   {
     "id": 29,
-    "question": "What is backlog refinement?",
-    "answer": "Clarifying, sizing, and prioritizing upcoming work."
+    "question": "How to create an estimation model?",
+    "answer": "Define variables, assumptions, formula; test extremes."
   },
   {
     "id": 30,
-    "question": "What is velocity?",
-    "answer": "Amount of work completed per sprint (for forecasting)."
+    "question": "How do you pick constraints for MVP?",
+    "answer": "Minimize scope to prove value with lowest risk."
   },
   {
     "id": 31,
-    "question": "What is a burndown chart?",
-    "answer": "Graph of remaining work vs. time in a sprint."
+    "question": "What’s a back-of-envelope calc?",
+    "answer": "Quick, rough math to check feasibility or scale."
   },
   {
     "id": 32,
-    "question": "What is Kanban?",
-    "answer": "Flow-based work management with WIP limits."
+    "question": "How do you compare options under uncertainty?",
+    "answer": "Scenario analysis and expected value."
   },
   {
     "id": 33,
-    "question": "What is WIP?",
-    "answer": "Work in Progress—items currently being worked on."
+    "question": "How do you guard against bias in data?",
+    "answer": "Define sampling, randomize, monitor assignment, predefine plan."
   },
   {
     "id": 34,
-    "question": "What is MVP?",
-    "answer": "Minimum product that delivers user value."
+    "question": "How do you set decision criteria?",
+    "answer": "Agree on metrics, thresholds, and time window upfront."
   },
   {
     "id": 35,
-    "question": "What is a roadmap?",
-    "answer": "High-level timeline of major outcomes and releases."
+    "question": "How do you handle contradictory data?",
+    "answer": "Validate sources, reconcile definitions, run new checks."
   },
   {
     "id": 36,
-    "question": "How do you prioritize work?",
-    "answer": "Use value, risk, effort; align with goals and stakeholders."
+    "question": "How do you pick between speed and quality?",
+    "answer": "Assess risk, reversibility, user impact; choose smallest safe step."
   },
   {
     "id": 37,
-    "question": "How do you manage blockers?",
-    "answer": "Escalate early, assign owners, track to resolution."
+    "question": "How do you create a crisp problem statement?",
+    "answer": "User, pain, impact, and desired outcome in one sentence."
   },
   {
     "id": 38,
-    "question": "How do you run effective meetings?",
-    "answer": "Clear goal, agenda, roles, timebox, actions recorded."
+    "question": "How do you communicate a recommendation?",
+    "answer": "Start with answer, show options, evidence, and risks."
   },
   {
     "id": 39,
-    "question": "What is a retrospective?",
-    "answer": "Team review to improve process for next iteration."
+    "question": "How do you handle a failed experiment?",
+    "answer": "Extract learnings, adjust hypothesis, iterate quickly."
   },
   {
     "id": 40,
-    "question": "What is a go/no-go?",
-    "answer": "Decision meeting to proceed with launch or not."
+    "question": "What makes a good estimate?",
+    "answer": "Clear scope, stated assumptions, range with confidence."
   }
 ]
